@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(../../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url(../../fonts/Poppins-Medium.ttf);
+}
+
+.footer-container {
+  width: 100%;
+  height: 270px;
+  background-color: #232027;
+  display: flex;
+}
+
+.logo-img {
+  margin: 60px;
+}
+
+.links-container {
+  display: flex;
+}
+
+.links-container h6 {
+  color: white;
+  font-family: "PoppinsBold";
+  display: flex;
+}
+
+.features {
+  margin: 60px 100px;
+}
+
+.resources {
+  margin: 60px 0;
+}
+
+.company {
+  margin: 60px 100px;
+}
+
+.features ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.resources ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.company ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.features ul li {
+  margin-bottom: 5px;
+}
+
+.resources ul li {
+  margin-bottom: 5px;
+}
+
+.company ul li {
+  margin-bottom: 5px;
+}
+
+.features ul a {
+  font-family: "PoppinsMedium";
+  text-decoration: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.resources ul a {
+  font-family: "PoppinsMedium";
+  text-decoration: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.company ul a {
+  font-family: "PoppinsMedium";
+  text-decoration: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.social-icons {
+    margin-top: 60px;
+}
+
+.social-icons img {
+    margin-right: 20px;
+}

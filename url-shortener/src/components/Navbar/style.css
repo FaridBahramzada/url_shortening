@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url(../../fonts/Poppins-Medium.ttf);
+}
+
+.navbar {
+  width: 92%;
+  margin: 30px 45px;
+  display: flex;
+  font-family: "PoppinsMedium";
+}
+
+.navbar-left-side {
+  display: flex;
+}
+
+.navbar-logo img {
+  width: 85%;
+}
+
+.navbar-logo {
+  margin-right: 12px;
+}
+
+.left-side-links {
+  display: flex;
+  gap: 13px;
+}
+
+.left-side-links a {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(180, 66%, 49%);
+  font-size: 18px;
+}
+
+.left-side-links a:hover {
+  color: hsl(257, 27%, 26%);
+}
+
+.navbar-right-side {
+  margin-right: 45px;
+}
+
+.right-side-links {
+  display: flex;
+  gap: 20px;
+}
+
+.login-button {
+  text-decoration: none;
+  cursor: pointer;
+  color: hsl(180, 66%, 49%);
+  font-size: 18px;
+}
+
+.login-button:hover {
+  color: hsl(257, 27%, 26%);
+}
+
+.signup-button {
+  position: relative;
+  width: 82px;
+  height: 32px;
+  border-radius: 17px;
+  border: 1px solid hsl(255, 11%, 22%);
+  background-color: hsl(255, 11%, 22%);
+  color: white;
+}
+
+.signup-button:hover {
+  cursor: pointer;
+  border: 1px solid hsl(0, 0%, 75%);
+  background-color: hsl(0, 0%, 75%);
+}

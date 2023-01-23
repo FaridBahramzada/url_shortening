@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(../../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  src: url(../../fonts/Poppins-Medium.ttf);
+}
+
+.main-container {
+  margin-top: 7%;
+  width: 100%;
+}
+
+.background-image img {
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+
+.left-container {
+  margin-left: 45px;
+}
+
+.header-text {
+  font-family: "PoppinsBold";
+  width: 300px;
+}
+
+.p-text {
+  color: hsl(257, 7%, 63%);
+  font-family: "PoppinsMedium";
+  width: 400px;
+}
+
+.started-button {
+  font-family: "PoppinsMedium";
+  position: relative;
+  width: 120px;
+  height: 35px;
+  margin-top: 12px;
+  border-radius: 17px;
+  border: 1px solid hsl(255, 11%, 22%);
+  background-color: hsl(255, 11%, 22%);
+  color: white;
+}
+
+.started-button:hover {
+  border: 1px solid hsl(0, 0%, 75%);
+  background-color: hsl(0, 0%, 75%);
+}
